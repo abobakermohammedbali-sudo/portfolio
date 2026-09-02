@@ -362,10 +362,7 @@ function App() {
               Proof, not just <span>promises.</span>
             </h2>
 
-            <p>
-              Representative QA work. Confidential employer data is
-              intentionally excluded.
-            </p>
+           
           </div>
 
           <div className="project-list">
