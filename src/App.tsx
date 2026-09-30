@@ -195,7 +195,7 @@ function App() {
             </h1>
 
             <p className="hero-text">
-              QA engineer with almost 6 years of experience across web, mobile,
+              QA engineer with almost 7 years of experience across web, mobile,
               API, performance and test automation. I turn requirements into
               reliable test coverage and repeatable engineering workflows.
             </p>
