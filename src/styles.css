@@ -107,9 +107,9 @@ h2 { font-size:clamp(38px,5vw,60px); line-height:1.05; letter-spacing:-.055em; m
 .code-window pre { margin:0; padding:20px; font:11px/1.8 var(--mono); color:#aab3c5; }
 .code-window code { white-space:pre-wrap; }
 .experience.section { width: min(1420px, calc(100% - 48px)); }
-.experience-layout { align-items:start; grid-template-columns: .85fr 2.15fr; gap: 60px; max-width: 100%; }
+.experience-layout { align-items:start; grid-template-columns: minmax(0, .85fr) minmax(0, 2.15fr); gap: 60px; max-width: 100%; }
 .timeline { border-left:1px solid var(--line); }
-.timeline-item { position:relative; display:grid; grid-template-columns:42px 1fr; gap:17px; padding:0 0 44px 25px; }
+.timeline-item { position:relative; display:grid; grid-template-columns:minmax(0, 1fr); padding:0 0 44px 25px; }
 .timeline-item:last-child { padding-bottom:0; }
 .timeline-dot { position:absolute; left:-14px; top:0; width:27px; height:27px; border-radius:50%; background:#111724; border:1px solid rgba(140,255,193,.3); display:grid; place-items:center; color:var(--accent); font:10px var(--mono); }
 .timeline-item > div:last-child > span { font:10px var(--mono); color:var(--accent); }
